@@ -33,7 +33,7 @@
                 height="38"
                 alt="logo">
             </a>
-        <nav class="navbar active">
+        <nav class="navbar">
             <div class="navbar-top">
                 <a href="#" class="logo">
                 <img src="./images/logo.svg" 
@@ -41,7 +41,9 @@
                 height="38"
                 alt="logo">
                 </a>
-                <button class="nav-toggle-btn" aria-label="close menu">
+                <button class="nav-toggle-btn"
+                data-nav-toggler 
+                aria-label="close menu">
                     <i class='bx bx-window-close'></i>
                 </button>
             </div>
@@ -71,10 +73,12 @@
                 </a>
             </div>
         </nav>
-        <button class="nav-toggle-btn" aria-label="open menu">
+        <button class="nav-toggle-btn" 
+        data-nav-toggler
+        aria-label="open menu">
             <i class='bx bx-menu'></i>
         </button>
-        <div class="overlay"></div>
+        <div class="overlay" data-nav-toggler></div>
         </div>
     </header>
     

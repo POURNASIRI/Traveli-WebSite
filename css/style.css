@@ -109,24 +109,32 @@
   
   input::placeholder { font: inherit; }
   
-  body { background: var(--white); }
+  body { 
+    background: var(--white); 
+    color: var(--text-granite-gray);
+    font-size: var(--fontSize-6);
+    line-height: 1.8;
+    height: 300vh;
+  }
   
   /* scrollbar style*/
   
-  body::-webkit-scrollbar { width: 15px; }
+  body::-webkit-scrollbar { width: 8px; }
   
   body::-webkit-scrollbar-track {
-    background: var(--white);
+    background: #777;
     border-left: 1px solid var(--cultured);
   }
   
   body::-webkit-scrollbar-thumb {
     background: hsl(0, 0%, 80%);
-    border: 3px solid var(--white);
+    border: 1px solid var(--white);
     border-radius: 10px;
+    
   }
   
   body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
+  body.nav-active{overflow: hidden;}
 
 
 
@@ -218,7 +226,7 @@ body{
   box-shadow: var(--shadow-3);
 }
 
-.overlay:{
+.overlay{
   position: fixed;
   top: 0;
   left: 0;
@@ -229,9 +237,10 @@ body{
   visibility: hidden;
   transition: var(--transition-1);
 
+
 }
 
-.voverlay.active{
+.overlay.active{
   visibility: visible;
   opacity: 0.5;
 }
