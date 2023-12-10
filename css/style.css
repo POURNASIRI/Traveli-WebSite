@@ -1,5 +1,6 @@
 @import"./preloader.css";
 @import"./navbar.css";
+@import"./section.css";
 
 :root{
 
@@ -114,7 +115,7 @@
     color: var(--text-granite-gray);
     font-size: var(--fontSize-6);
     line-height: 1.8;
-    height: 300vh;
+ 
   }
   
   /* scrollbar style*/
@@ -158,6 +159,9 @@ a,img,span,button{
 a{
     color: inherit;
     text-decoration: none;
+}
+img{
+  height: auto;
 }
 input,button{
     background: none;
@@ -245,4 +249,9 @@ body{
   opacity: 0.5;
 }
 
+
+.section{
+  background-image: url("./images/hero-bg.jpg");
+  padding-block-end:80px ;
+}
 
