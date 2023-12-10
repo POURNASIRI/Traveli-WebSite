@@ -64,16 +64,6 @@
 }
 
 .hero-btn:is(:hover,:focus-visible){color: var( --bg-majorelle-blue);}
-.title{
-    color: var(--text-gunmetal);
-    font-weight:var(--weight-semiBold);
-    line-height: 1.45;
-}
-
-.h1{
-    font-size:var(--fontSize-1) ;
-    line-height: 1.2;
-}
 
 .img-cover{
     width: 100%;

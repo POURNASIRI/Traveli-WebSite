@@ -1,6 +1,7 @@
 @import"./preloader.css";
 @import"./navbar.css";
-@import"./section.css";
+@import"./hero.css";
+@import "./service.css";
 
 :root{
 
@@ -253,5 +254,32 @@ body{
 .section{
   background-image: url("./images/hero-bg.jpg");
   padding-block-end:80px ;
+}
+
+.title{
+  color: var(--text-gunmetal);
+  font-weight:var(--weight-semiBold);
+  line-height: 1.45;
+}
+
+.section-subtitle{
+    color: var(--bg-majorelle-blue);
+    font-weight: var(--weight-medium);
+    text-transform: uppercase;
+}
+.section-title{
+  margin-block: 10px;
+}
+
+.h1{
+  font-size:var(--fontSize-1) ;
+  line-height: 1.2;
+}
+
+.h2{
+  font-size: var(--fontSize-2);
+}
+.h3{
+  font-size: var(--fontSize-4);
 }
 
