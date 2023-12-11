@@ -2,6 +2,7 @@
 @import"./navbar.css";
 @import"./hero.css";
 @import "./service.css";
+@import "./destination.css";
 
 :root{
 
@@ -282,4 +283,11 @@ body{
 .h3{
   font-size: var(--fontSize-4);
 }
+
+.img-holder{
+  aspect-ratio: var(--white) / var(--height);
+  background-color: var(--bg-gainsboro);
+  overflow: hidden;
+}
+
 

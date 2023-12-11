@@ -1,0 +1,65 @@
+.section.desti.container{
+    display: grid;
+    gap: 25px;
+}
+
+
+.desti .section-title{
+    margin-block-end: 40px;
+    
+}
+
+.desti-list{
+    display: grid;
+    gap: 30px;
+}
+
+.desti-card .card-banner{
+    position: relative;
+    border-radius: 30px;
+}
+
+.desti-card:is(:hover, :focus-within) .img-cover{
+    transform: scale(1.05);
+}
+
+.desti-card .card-price{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--bg-white);
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: var( --text-majorelle-blue);
+    font-weight: var(--weight-bold);
+    font-size: 1.8rem;
+
+}
+.desti-card .card-title{
+    margin-block: 15px 5px;
+    transition: var(--transition-1);
+}
+.desti-card .card-title:is(:hover, :focus-visible){
+    color: var(--text-majorelle-blue);
+}
+.span{
+    background-color: var(--bg-sunglow-alpha-10);
+    padding: 0 15px;
+    border-radius: 20px;
+    font-weight: var(--weight-bold);
+}
+.span i{
+    color: gold;
+}
+
+.card-rating{
+    display: flex; 
+    gap:10px ;
+    align-items: center;
+    
+}
+
+.desti .btn{
+    margin-inline: auto;
+    margin-block-start: 40px;
+}
