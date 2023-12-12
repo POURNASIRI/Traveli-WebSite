@@ -1,0 +1,43 @@
+.footer-top{
+    display: grid;
+    gap: 40px;
+    padding-block: 60px;
+}
+
+.footer-brand .logo{
+    width: 10px;
+    margin-block-end: 20px;
+}
+.footer-text{
+    margin-block-end: 20px;
+}
+.social-list{
+    display: flex;
+    gap: 20px;
+}
+.social-link i{
+    font-size: 3rem;
+    transition: var(--transition-1);
+    color: var(--bg-majorelle-blue);
+}
+.social-link i:is(:hover,:focus-visible){
+    scale: 1.1;
+}
+
+.footer-list-title{
+    font-size: var(--fontSize-5);
+    font-weight: var( --weight-semiBold);
+}
+
+.footer-bottom{
+    text-align: center;
+    margin-block: 20px;
+    font-size: var(--fontSize-7);
+   
+}
+
+.creatore{
+    color: var(--bg-majorelle-blue);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
